@@ -1,0 +1,60 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\lcm\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\mongoDB;D:\Program-file\OpenVPN\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\bin;C:\Users\lcm\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\mongoDB;C:\Users\lcm\AppData\Roaming\npm;C:\myserver\Apache24\bin;D:\AppServ\Apache24\bin;D:\AppServ\php5;D:\AppServ\MySQL\bin;D:\Program-file\sdk\tools;D:\Program-file\sdk\platform-tools;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\jre1.8.0_144\bin;C:\Users\lcm\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  8.1.3
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "start": "roadhog server",
+      "build": "roadhog build",
+      "lint": "eslint --ext .js src test",
+      "precommit": "npm run lint"
+    },
+    "engines": {
+      "install-node": "6.9.2"
+    },
+    "dependencies": {
+      "antd": "^2.12.1",
+      "babel-plugin-import": "^1.2.1",
+      "babel-runtime": "^6.9.2",
+      "dva": "^1.2.1",
+      "dva-loading": "^0.2.1",
+      "react": "^15.4.0",
+      "react-dom": "^15.4.0"
+    },
+    "devDependencies": {
+      "babel-eslint": "^7.1.1",
+      "babel-plugin-dva-hmr": "^0.3.2",
+      "babel-plugin-transform-runtime": "^6.9.0",
+      "eslint": "^3.12.2",
+      "eslint-config-airbnb": "^13.0.0",
+      "eslint-plugin-import": "^2.2.0",
+      "eslint-plugin-jsx-a11y": "^2.2.3",
+      "eslint-plugin-react": "^6.8.0",
+      "expect": "^1.20.2",
+      "husky": "^0.12.0",
+      "redbox-react": "^1.3.2",
+      "roadhog": "^0.5.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EEXIST: file already exists, mkdir 'F:\dav-react\node_modules\babel-eslint'
